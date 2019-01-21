@@ -8,7 +8,7 @@
 .container-PNkimc,
 .members-1998pB{background-color:var(--medium)!important}.attachButtonInner-1iyZ9F svg path,
 .messageGroupBlocked-3wrQQX,
-.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--version:"1.0.14"}
+.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.15"}
 .container-1UB9sr,
 .container-2Thooq{margin:0}
 .container-1UB9sr{border:none}.image-33JSyf,
@@ -58,14 +58,18 @@
 .imageWrapper-2p5ogY,
 .video-8eMOth,
 .wrapper-2TxpI8{border-radius:0!important}.bf-toolbar:before{background:rgba(0,0,0,.9)!important;border-left:4px solid var(--primary)}.bf-toolbar .format:hover{background-color:rgba(0,0,0,.45)}.wrapper-3WhCwL{background-color:rgba(255, 161, 0,.25)!important;color:rgba(255, 161, 0)!important}.wrapper-3WhCwL:hover{background-color:rgba(255, 161, 0, 0.5)!important}.attachment-33OFj0,
-/* Corey's Code block */
+/*                       */
+/*                       */
+/*  Corey's Code block   */
+/*                       */
+/*                       */
 .theme-dark .ismentioned-N-h9aa{background:rgba(255, 161, 0, 0.1)} 
 .theme-dark .username-_4ZSMR::before{color: var(--prefix);content:"0000 "} /* Chat: Username Prefix "0000" */
 .theme-dark .username-_4ZSMR{color:rgb(0, 255, 0)} /* Chat: Username Color */
 .theme-dark .username-_4ZSMR::after{color: var(--dots);content: " :::"}  /* Chat: Username ::: */
 .theme-dark .markup-2BOw-j{color:var(--fontcolor);} /* Chat Font Color */
 .theme-dark .timestampCompact-MHgFLv{color:var(--timestamp);font-size: 12px;}  /* Timestamp */
-.theme-dark .newMessagesBar-mujexs button{color:var(--fontcolor)}  /* New Message Font Color */
+.theme-dark .newMessagesBar-mujexs button{color:black}  /* New Message Font Color */
 .theme-dark .hljs{color: var(--fontcolor)}  /* Code Embed - Font Color */
 .theme-dark .markup-2BOw-j pre code{background-color: var(--medium);font-family: whiterabbit;} /* Code Embed */
 .theme-dark .markup-2BOw-j code.inline{background-color: var(--medium);font-family: whiterabbit;border-radius: 0px;padding: 2px} /* Code Embed - Single Line */
@@ -87,7 +91,7 @@
 .theme-dark .members-1998pB{font-family: whiterabbit;font-size: 12px} /* Server: Members List */
 .theme-dark .username-1cB_5E{font-size:12px} /* Server: Members List - Names */
 .theme-dark .activity-1IYsbk{font-size:10px} /* Server: Members List - Activity */
-.theme-dark{font-family: whiterabbit;letter-spacing: -.25px} /* ALL font - Except type bar */
+.theme-dark{font-family: whiterabbit;letter-spacing: -.25px} /* ALL font - Except type bar & Searches */
 .theme-dark .note-3HfJZ5 textarea{font-family: whiterabbit;color: var(--primary2);}
 .theme-dark div.friendsOnline-_wi_fM{color: var(--primary);font-size:9px;} /* Friends Online Font Size - And Color */
 .theme-dark div.searchBarInner-1_Tg2R{font-family: whiterabbit;} /* Search Bar Test */
@@ -95,8 +99,30 @@
 .theme-dark .textArea-2Spzkt::placeholder{color:var(--fontcolor);font-family: whiterabbit;} /* Chat - Text Input Placeholder */
 .theme-dark .searchBar-2_Yu-C input::placeholder{color: var(--fontcolor);font-family: whiterabbit;letter-spacing: -0.5px;} /* Find or start a conversion - Field */
 .theme-dark .search-2oPWTC .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{color: var(--fontcolor);} /* Search Bar */
-.theme-dark .anchor-3Z-8Bb::after{font-size:10px;content:var(--version);} /* Anchor Version # - Top Right Behind '?' icon */
-/* Corey's Code block */
+/* DOESN'T WORK RIGHT: .theme-dark .anchor-3Z-8Bb::after{font-size:10px;content:var(--version);} *//* Anchor Version # - Top Right Behind '?' icon */
+.theme-dark .channel-2QD9_O:hover .name-2WpE7M{color: var(--primary2);} /* Friend Name - On Hover - Friends list */
+.theme-dark .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M{color: var(--primary);} /* Friend Name - Selected */
+.theme-dark .channel-2QD9_O.selected-1HYmZZ .activity-525YDR{color: var(--primary)} /* Friend - Activity - Selected Friend */
+.theme-dark .channel-2QD9_O:hover .activity-525YDR{color: var(--primary2)} /* Friend - Activity - Hovered */
+.theme-dark .accountDetails-3k9g4n .username{font-stretch: normal ;color:var(--primary)} /* Username - Fit - Scale Down & Color */
+.theme-dark .accountDetails-3k9g4n .discriminator{color: var(--primary2)} /* Username - Discriminator # - Color */
+.theme-dark .nameDefault-2s3kbY{color:var(--primary)} /* Server - Voice Channel - Default Color */
+.theme-dark .nameHovered-21k1eo{color:var(--primary2)} /* Server - Voice Channel - Hover Color */
+.theme-dark .nameUnreadText-DfkrI4:hover{color: var(--primary)} /* Server - Channel Unread Text - Hover */
+.theme-dark .markup-2BOw-j a{color:lime} /* URL or Links - Color */
+/* .theme-dark .headerPlaying-j0WQBV .activityUserPopout-2yItg2 .headerText-1HLrL7{color:black} /* User Pop-out - Activity - Header - Color */
+/* .theme-dark .headerPlaying-j0WQBV .activityUserPopout-2yItg2 .activityName-1IaRLn{color:purple} /* User Pop-out - Activity - Name - Color */
+/* .theme-dark .nameNormal-2lqVQK {color:orange} /* User Pop-Out - Activity - Name Normal - Color */
+/* .theme-dark .headerPlaying-j0WQBV .activityUserPopout-2yItg2 .details-38sfDr{color:red} /* User Pop-out - Activity - Subtext - Color */
+/* .theme-dark .headerPlaying-j0WQBV .activityUserPopout-2yItg2 .content-3JfFJh{color:lime} /* User Pop-out - Activity - Activity - Color */ 
+/* .theme-dark .headerPlaying-j0WQBV .activityUserPopout-2yItg2 .textRow-19NEd_{color:orange} /* User Pop-out -Activity - Text - Color */
+/* .theme-dark .quickMessage-1yeL4E{color:red}
+/* .theme-dark .quickMessage-2XpSaN{color:var(--fontcolor);background-color:var(--playing)}
+/*                       */
+/*                       */
+/*  Corey's Code block   */
+/*                       */
+/*                       */
 .popout-3sVMXz header{background-color:var(--dark)!important}.attachment-33OFj0{border-color:rgba(0,0,0,.5)!important}.uploadModal-2ifh8j .inner-3nWsbo,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j{border-color:var(--primary);border-radius:0}
 .container-2x5lvQ section{background-color:var(--medium)!important}.popout-2GtBL-:after{border-top-color:#0c0c0c!important}#bd-pub-button{line-height:20px;font-size:12px;background-color:rgba(79,84,92,.6);transition:all .2s ease}#bd-pub-button:hover{background-color:var(--primary);box-shadow:0 0 30px #000;text-shadow:0 0 3px #000}.guildsWrapper-5TJh6A{background-color:var(--medium)!important}.guilds-1q_RqH,
@@ -207,7 +233,7 @@
 .topSectionPlaying-1J5E4n .headerText-1HLrL7::before,
 .topSectionSpotify-1lI0-P .headerFill-adLl4x .headerText-1HLrL7::before{width:20px;height:20px;position:absolute;content:""}.headerText-1HLrL7{padding-left:20px}.headerPlaying-j0WQBV .headerText-1HLrL7::before{background:url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/Icons/joystick.png) center no-repeat;background-size:contain;left:6px;top:6px}.topSectionPlaying-1J5E4n .headerText-1HLrL7::before{background:url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/Icons/joystick.png) center no-repeat;background-size:contain;left:16px;top:147px}.headerStreaming-2FjmGz{background-color:var(--dark)}.headerStreaming-2FjmGz .activity-11LB_k{background-color:#653ea8;background-repeat:no-repeat;background-position:right top;background-size:100% 105%}.headerStreaming-2FjmGz .activity-11LB_k .lookOutlined-3sRXeN.colorWhite-rEQuAQ{border:2px solid #38225e;background-color:#8c69c9}.headerStreaming-2FjmGz .activity-11LB_k .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover{border:2px solid #8c69c9;background-color:#38225e}.headerSpotify-zpWxgT{background-color:var(--dark)}.headerSpotify-zpWxgT .activity-11LB_k{background-color:#1db954;background-repeat:no-repeat;background-position:top;background-size:100% 105%}.topSectionSpotify-1lI0-P{background-color:var(--dark)}.topSectionSpotify-1lI0-P .headerFill-adLl4x{background-color:#1db954;background-repeat:no-repeat;background-position:top;background-size:100% 105%}.headerSpotify-zpWxgT .activity-11LB_k .headerText-1HLrL7::before{background:url(https://i.imgur.com/ifE7bet.png) center no-repeat;background-size:contain;left:6px;top:6px}.topSectionSpotify-1lI0-P .headerFill-adLl4x .headerText-1HLrL7::before{background:url(https://i.imgur.com/ifE7bet.png) center no-repeat;background-size:contain;left:16px;top:147px}.listenAlongIcon-2WbU7U{top:3px;left:4px;position:absolute}.headerPlaying-j0WQBV,
 .topSectionPlaying-1J5E4n{background:var(--dark)}.headerPlaying-j0WQBV .headerTop-3C2Zn0{background-color:transparent}.headerPlaying-j0WQBV .activity-11LB_k,
-.topSectionPlaying-1J5E4n .activity-1ythUs{box-shadow:0 5px 15px rgba(0,0,0,.45),0 -5px 15px rgba(0,0,0,.45);background-position:center;background-size:cover;background-repeat:no-repeat;background-color:var(--primary)!important}.body-3ND3kc,
+.topSectionPlaying-1J5E4n .activity-1ythUs{box-shadow:0 5px 15px rgba(0,0,0,.45),0 -5px 15px rgba(0,0,0,.45);background-position:center;background-size:cover;background-repeat:no-repeat;background-color:var(--playing)!important}.body-3ND3kc,
 .body-3iLsc4,
 .footer-1fjuF6{background-color:var(--medium)!important}.assets-VMAukC,
 .assetsLargeImage-eYwpTX,
