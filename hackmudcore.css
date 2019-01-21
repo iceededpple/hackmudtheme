@@ -87,6 +87,8 @@
 .theme-dark .members-1998pB{font-family: whiterabbit;font-size: 12px} /* Server: Members List */
 .theme-dark .username-1cB_5E{font-size:12px} /* Server: Members List - Names */
 .theme-dark .activity-1IYsbk{font-size:10px} /* Server: Members List - Activity */
+.theme-dark{font-family: whiterabbit;letter-spacing: -.75px} /* ALL font - Except type bar */
+.theme-dark .note-3HfJZ5 textarea{font-family: whiterabbit;color: var(--primary2)}
 /* Corey's Code block */
 .popout-3sVMXz header{background-color:var(--dark)!important}.attachment-33OFj0{border-color:rgba(0,0,0,.5)!important}.uploadModal-2ifh8j .inner-3nWsbo,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j{border-color:var(--primary);border-radius:0}
@@ -219,7 +221,7 @@
 .side-8zPYf6 .itemHover-EnbcjT:hover{background-color:rgba(0,0,0,.55)!important;border-radius:0;border-left:4px solid transparent}#bd-settings-sidebar .ui-tab-bar-item.selected,
 .side-8zPYf6 .itemSelected-1qLhcL{background-color:rgba(0,0,0,.55)!important;color:#fff;border-left:4px solid var(--primary);border-radius:0}svg circle[stroke*="rgb(151, 168, 228)"]{stroke:var(--primary)!important}.side-8zPYf6 .itemDefault-3Jdr52:hover[style*="background-color: rgba(114, 137, 218, 0.0980392)"],
 .side-8zPYf6 .itemHover-EnbcjT:hover[style*="background-color: rgba(114, 137, 218, 0.0980392)"]{background-color:rgba(114,137,218,.2)!important;color:#fff!important}.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"]{color:#7289da!important}.side-8zPYf6 .itemSelected-1qLhcL[style*="background-color: rgb(114, 137, 218);"]{background-color:rgba(114,137,218,.5)!important;color:#fff!important;border-left:4px solid rgba(0,0,0,.55)}.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(240, 71, 71);"]{color:#dc3545!important}.side-8zPYf6 .itemDefault-3Jdr52:hover[style*="background-color: rgba(240, 71, 71, 0.0980392);"]{background-color:#dc3545!important;color:#fff!important;border-left:4px solid rgba(0,0,0,.05)}.side-8zPYf6 .item-PXvHYJ:nth-child(9):hover,
-.side-8zPYf6 .itemSelected-1qLhcL:nth-child(9){background-color:rgba(72, 230, 251,.5)!important;color:#fff!important}.side-8zPYf6 .itemSelected-1qLhcL:nth-child(9){border-left:4px solid rgba(72, 230, 251,.9)}#bd-settings-sidebar .ui-tab-bar-item{margin:2px 0}#bd-settings-sidebar::after{content:"Theme Version: 1.0.11";font-size:12px;font-weight:600;color:#72767d;padding:2px 10px}#bd-settings-sidebar .ui-tab-bar-item,
+.side-8zPYf6 .itemSelected-1qLhcL:nth-child(9){background-color:rgba(72, 230, 251,.5)!important;color:#fff!important}.side-8zPYf6 .itemSelected-1qLhcL:nth-child(9){border-left:4px solid rgba(72, 230, 251,.9)}#bd-settings-sidebar .ui-tab-bar-item{margin:2px 0}#bd-settings-sidebar::after{content:"Theme Version: 1.0.12";font-size:12px;font-weight:600;color:#72767d;padding:2px 10px}#bd-settings-sidebar .ui-tab-bar-item,
 .side-8zPYf6 .item-PXvHYJL,
 .side-8zPYf6 .itemDefault-3Jdr52{border-left:4px solid transparent;box-sizing:border-box}.link-1IoFq-[title=Twitter]:hover .foreground-26ym5y{fill:#00acff}.link-1IoFq-[title=Facebook]:hover .foreground-26ym5y{fill:#3b5998}.link-1IoFq-[title=Instagram]:hover .foreground-26ym5y{fill:#c32aa3}.sidebarRegion-VFTUkN{background-color:var(--dark)!important}.contentRegion-3nDuYy{flex:1 1 100%;background-color:var(--medium)!important;background-position:bottom!important;background-size:100% 100%!important;background-repeat:no-repeat!important}.cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
