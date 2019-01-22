@@ -8,7 +8,7 @@
 .container-PNkimc,
 .members-1998pB{background-color:var(--medium)!important}.attachButtonInner-1iyZ9F svg path,
 .messageGroupBlocked-3wrQQX,
-.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.17"}
+.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.18"}
 .container-1UB9sr,
 .container-2Thooq{margin:0}
 .container-1UB9sr{border:none}.image-33JSyf,
@@ -125,6 +125,18 @@
 .theme-dark .base-gE7OpD span{color: var(--primary2);} /* Name Is Typing */
 .theme-dark .channelName-3stJzi{color:var(--primary);} /* Friend Name / Channel Name - Color */
 .theme-dark .channelIcon-MsmKOO{color:var(--primary2);} /* Channel Icon - Color */
+.theme-dark .side-8zPYf6 .itemSelected-1qLhcL{font-size: 14px;color:var(--primary2)} /* User Settings - Font Size or Color */
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52{font-size: 14px;} /* User Settings - Font Size or Color */
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover{color:var(--primary)} /* User Settings - Font Size or Color */
+.theme-dark .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item{font-size: 14px;} /* User Settings - BD - Font Size or Color */
+.theme-dark .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:hover{color: var(--primary)} /* User Settings - BD - Font Size or Color */
+.theme-dark .contextMenu-HLZMGh{background-color: var(--dark);} /* RC Context Menu */
+.theme-dark .item-1Yvehc{background-color: var(--dark);color: var(--fontcolor);} /* RC - Context Menu */
+.theme-dark .item-1Yvehc:hover{color: var(--primary);} /* RC - Hover */
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud{font-size:14px;letter-spacing: -.5px} /* Friends Table */
+.theme-dark .username-3gJmXY{color: var(--primary)} /* Friend Name */
+.theme-dark .discriminator-xUhQkU{color: var(--primary2)} /* Friend Discriminator */
+.theme-dark .note-3kmerW textarea{color:var(--fontcolor);font-family: whiterabbit;font-size: 14px;letter-spacing: -.5px} /* Friend Note */
 /*                       */
 /*                       */
 /*  Corey's Code block   */
