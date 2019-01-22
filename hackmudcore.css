@@ -8,7 +8,7 @@
 .container-PNkimc,
 .members-1998pB{background-color:var(--medium)!important}.attachButtonInner-1iyZ9F svg path,
 .messageGroupBlocked-3wrQQX,
-.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.16"}
+.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.17"}
 .container-1UB9sr,
 .container-2Thooq{margin:0}
 .container-1UB9sr{border:none}.image-33JSyf,
@@ -122,6 +122,9 @@
 .theme-dark .unread-1xRYoj{background-color: var(--primary2);} /* Unread bottom Bar - New Unreads - Background */
 /* .theme-dark .unread-1s3J68{background-color: var(--primary2);} */ /* Unread Top Bar Background */
 /* .theme-dark .unreadBottom-3hWQ7c{background-color: var(--primary2);} */ /* Unread Bottom Bar - Background */
+.theme-dark .base-gE7OpD span{color: var(--primary2);} /* Name Is Typing */
+.theme-dark .channelName-3stJzi{color:var(--primary);} /* Friend Name / Channel Name - Color */
+.theme-dark .channelIcon-MsmKOO{color:var(--primary2);} /* Channel Icon - Color */
 /*                       */
 /*                       */
 /*  Corey's Code block   */
