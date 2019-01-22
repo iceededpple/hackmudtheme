@@ -1,5 +1,5 @@
 # hackmudtheme
-You will need Better Discord to use the theme.
+You will need BetterDiscord to use the theme.
 
 Download hackmud.theme.css and put it in your %appdata%\betterdiscord\themes folder
 
@@ -10,7 +10,7 @@ I/We do not support, work for, or administrate BetterDiscord or Discord in any w
 
 I/We are not associated with BetterDiscord or Discord.
 
-Use Better Discord and/or the Theme(s) listed in this github at your own risk.
+Use BetterDiscord and/or the Theme(s) listed in this github at your own risk.
 
 I/We are not responsible for any damages caused by BetterDiscord or This theme - be it directly or indirectly.
 
