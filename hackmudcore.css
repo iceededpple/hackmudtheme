@@ -8,7 +8,7 @@
 .container-PNkimc,
 .members-1998pB{background-color:var(--medium)!important}.attachButtonInner-1iyZ9F svg path,
 .messageGroupBlocked-3wrQQX,
-.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.15"}
+.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.16"}
 .container-1UB9sr,
 .container-2Thooq{margin:0}
 .container-1UB9sr{border:none}.image-33JSyf,
@@ -64,15 +64,15 @@
 /*                       */
 /*                       */
 .theme-dark .ismentioned-N-h9aa{background:rgba(255, 161, 0, 0.1)} 
-.theme-dark .username-_4ZSMR::before{color: var(--prefix);content:"0000 "} /* Chat: Username Prefix "0000" */
-.theme-dark .username-_4ZSMR{color:rgb(0, 255, 0)} /* Chat: Username Color */
-.theme-dark .username-_4ZSMR::after{color: var(--dots);content: " :::"}  /* Chat: Username ::: */
-.theme-dark .markup-2BOw-j{color:var(--fontcolor);} /* Chat Font Color */
+.theme-dark .username-_4ZSMR::before{color: var(--prefix);content:"0000 ";font-size: 14px} /* Chat: Username Prefix "0000" */
+.theme-dark .username-_4ZSMR{color:rgb(0, 255, 0);font-size: 14px} /* Chat: Username Color */
+.theme-dark .username-_4ZSMR::after{color: var(--dots);content: " :::";font-size: 14px}  /* Chat: Username ::: */
+.theme-dark .markup-2BOw-j{color:var(--fontcolor);font-size: 14px} /* Chat Font Color */
 .theme-dark .timestampCompact-MHgFLv{color:var(--timestamp);font-size: 12px;}  /* Timestamp */
 .theme-dark .newMessagesBar-mujexs button{color:black}  /* New Message Font Color */
 .theme-dark .hljs{color: var(--fontcolor)}  /* Code Embed - Font Color */
 .theme-dark .markup-2BOw-j pre code{background-color: var(--medium);font-family: whiterabbit;} /* Code Embed */
-.theme-dark .markup-2BOw-j code.inline{background-color: var(--medium);font-family: whiterabbit;border-radius: 0px;padding: 2px} /* Code Embed - Single Line */
+.theme-dark .markup-2BOw-j code.inline{background-color: var(--medium);font-family: whiterabbit;border-radius: 0px;padding: 3px} /* Code Embed - Single Line */
 .theme-dark .name-2WpE7M{color: var(--fontcolor);font-size:14px;font-family: whiterabbit;} /* Friends List: Names */
 .theme-dark .name-2WpE7M:hover{color: var(--primary);font-size:14px;font-family: whiterabbit;} /* Friends List: Names */
 .theme-dark .activity-525YDR{color: var(--fontcolor);font-size:10px;font-family: whiterabbit;} /* Friends List: "playing game" */
@@ -95,7 +95,7 @@
 .theme-dark .note-3HfJZ5 textarea{font-family: whiterabbit;color: var(--primary2);}
 .theme-dark div.friendsOnline-_wi_fM{color: var(--primary);font-size:9px;} /* Friends Online Font Size - And Color */
 .theme-dark div.searchBarInner-1_Tg2R{font-family: whiterabbit;} /* Search Bar Test */
-.theme-dark .textArea-2Spzkt{color: var(--fontcolor);font-family: whiterabbit;} /* Chat - Text Input by User */
+.theme-dark .textArea-2Spzkt{color: white;font-family: whiterabbit;} /* Chat - Text Input by User */
 .theme-dark .textArea-2Spzkt::placeholder{color:var(--fontcolor);font-family: whiterabbit;} /* Chat - Text Input Placeholder */
 .theme-dark .searchBar-2_Yu-C input::placeholder{color: var(--fontcolor);font-family: whiterabbit;letter-spacing: -0.5px;} /* Find or start a conversion - Field */
 .theme-dark .search-2oPWTC .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{color: var(--fontcolor);} /* Search Bar */
@@ -117,7 +117,11 @@
 /* .theme-dark .headerPlaying-j0WQBV .activityUserPopout-2yItg2 .content-3JfFJh{color:lime} /* User Pop-out - Activity - Activity - Color */ 
 /* .theme-dark .headerPlaying-j0WQBV .activityUserPopout-2yItg2 .textRow-19NEd_{color:orange} /* User Pop-out -Activity - Text - Color */
 /* .theme-dark .quickMessage-1yeL4E{color:red}
-/* .theme-dark .quickMessage-2XpSaN{color:var(--fontcolor);background-color:var(--playing)}
+/* .theme-dark .quickMessage-2XpSaN{color:var(--fontcolor);background-color:var(--playing)} */
+.theme-dark .username-_4ZSMR{text-decoration-style: none;text-decoration-color:#696969;text-decoration-line: none} /* Text Decoration - Usernames - Chat */
+.theme-dark .unread-1xRYoj{background-color: var(--primary2);} /* Unread bottom Bar - New Unreads - Background */
+/* .theme-dark .unread-1s3J68{background-color: var(--primary2);} */ /* Unread Top Bar Background */
+/* .theme-dark .unreadBottom-3hWQ7c{background-color: var(--primary2);} */ /* Unread Bottom Bar - Background */
 /*                       */
 /*                       */
 /*  Corey's Code block   */
