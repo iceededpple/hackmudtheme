@@ -40,8 +40,11 @@ scripts.get_level { name:""}
 
 >>light.public {get:"people",p:"plantowin",project:"cloudskimmer.da7a"}
 
-anon_jrttl_rzf88s.pub_rayy6z
-derelict_jrttl_9t2rqp.public_iwdrq6
+anon_jr_uv4n7b.out_hejdhm
+unidentified_jrttl_ybhz7f.extern_zgpj92
+abandoned_jrttl_c63dnq.pubinfo_dbk0rr
+abndnd_jrttl_wvazr6.extern_iqovph
+
 
 
 Tier 1 Questions
