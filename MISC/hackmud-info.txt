@@ -40,13 +40,18 @@ scripts.get_level { name:""}
 
 >>light.public {get:"people",p:"plantowin",project:"cloudskimmer.da7a"}
 `
-unidentified_ddttl_7j7rgb.info_fxfk9s
-unknown_ddttl_h7fiij.external_9a5rpi
-abandoned_jrttl_m5wutp.external_2ej7f2
-
-anon_jrttl_6vicgv.pub_info_h4484k
-anonymous_jrttl_hvc2rk.pubinfo_pkpk17
-abandoned_jrttl_z3dr40.access_q6v7vh
+unidentified_ddttl_5l1eu4.public_dy2016
+abandoned_jr_4vzs8x.access_0t66he
+anon_ddttl_y8o3dn.extern_4cpqyt
+uknown_jrttl_a2kfwe.entry_e6jzb8
+abandoned_jrttl_qq6d8g.out_d55dug
+derelict_jrttl_3cn9lh.out_iwpr0l
+derelict_jr_elxkr3.out_ccwdqx
+derelict_jrttl_zpag1a.external_k2uqvu
+uknown_jrttl_2a40xk.extern_2jtjss
+unknown_jrttl_m5eihc.access_4jbm5i
+unknown_ddttl_k2j6js.extern_gb4wvu
+uknown_ddttl_0nezgt.p_1khypa
 `
 Tier 1 Questions
   "did you know" is a communication pattern common to user ++++++
