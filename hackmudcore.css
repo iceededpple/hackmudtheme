@@ -406,4 +406,8 @@
 .friendsTable-133bsv .friendsRow-2yicud:hover{border-radius:0!important;background-color:rgba(0,0,0,.35)!important}.tabBar-1E2ExX .primary-3j8BhM{background-color:var(--primary)!important}.searchBar-2_Yu-C{background-color:transparent}.search-2oPWTC .searchBar-3dMhjb,
 .searchBar-1MOL6S,
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R{background:rgba(0,0,0,.35)!important;border-color:rgba(0,0,0,.75)!important;border-radius:0}.keyboardShortcutsModal-3piNz7{background-color:var(--dark)!important}.ddrArrows-lSnH7P div{mix-blend-mode:luminosity}
-input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da-size16, input, ::placeholder{font-family:whiterabbit}
+input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da-size16, input, ::placeholder{font-family:whiterabbit} /* Redeem Code */
+/* Search Popout */
+.theme-dark .container-3ayLPN {background-color:var(--medium)}
+.theme-dark .option-96V44q:after{background:linear-gradient(90deg,rgba(54,57,63,0),var(--medium) 80%)}
+/* End Search Popout */
