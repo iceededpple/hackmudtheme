@@ -28,8 +28,8 @@ lime	4	    purple	    red	        blue
 yellow	6	    blue	    purple	    cyan
 orange	6	    cyan	    blue	    green
 
-Prime: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 
-41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97
+Prime: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,
+ 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97
 
 ----NOTES:
 sys.expose_access_log
@@ -39,14 +39,15 @@ scripts.get_level { name:""}
 
 
 >>light.public {get:"people",p:"plantowin",project:"cloudskimmer.da7a"}
+`
+unidentified_ddttl_7j7rgb.info_fxfk9s
+unknown_ddttl_h7fiij.external_9a5rpi
+abandoned_jrttl_m5wutp.external_2ej7f2
 
-anon_jr_uv4n7b.out_hejdhm
-unidentified_jrttl_ybhz7f.extern_zgpj92
-abandoned_jrttl_c63dnq.pubinfo_dbk0rr
-abndnd_jrttl_wvazr6.extern_iqovph
-
-
-
+anon_jrttl_6vicgv.pub_info_h4484k
+anonymous_jrttl_hvc2rk.pubinfo_pkpk17
+abandoned_jrttl_z3dr40.access_q6v7vh
+`
 Tier 1 Questions
   "did you know" is a communication pattern common to user ++++++
     fran_lee
