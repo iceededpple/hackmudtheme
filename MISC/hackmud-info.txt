@@ -36,22 +36,27 @@ sys.expose_access_log
 scripts.get_level { name:""}
 
 ----HACK THESE:
-
+Locations:
+* tandoori.public
+* light.public
+* empty_nest.public
 
 >>light.public {get:"people",p:"plantowin",project:"cloudskimmer.da7a"}
 `
-unidentified_ddttl_5l1eu4.public_dy2016
-abandoned_jr_4vzs8x.access_0t66he
-anon_ddttl_y8o3dn.extern_4cpqyt
-uknown_jrttl_a2kfwe.entry_e6jzb8
-abandoned_jrttl_qq6d8g.out_d55dug
-derelict_jrttl_3cn9lh.out_iwpr0l
-derelict_jr_elxkr3.out_ccwdqx
-derelict_jrttl_zpag1a.external_k2uqvu
-uknown_jrttl_2a40xk.extern_2jtjss
-unknown_jrttl_m5eihc.access_4jbm5i
+Scripts:
+anonymous_jrttl_u9odhq.pub_info_qk0tiw
+uknown_ddttl_4krjkd.info_xv3o8u
 unknown_ddttl_k2j6js.extern_gb4wvu
 uknown_ddttl_0nezgt.p_1khypa
+derelict_ddttl_t5mu41.extern_r1rmkl
+uknown_jrttl_g6rd5g.extern_2cj56c
+abndnd_jrttl_196xhv.info_smvw3g
+unidentified_jrttl_mf12vw.out_b10rir
+unidentified_jr_eiirvs.info_mdsohi
+uknown_jr_99hl6x.pubinfo_x6r3dy
+abndnd_jr_pu43ta.entry_fz77yz
+derelict_jr_rmhsuv.entry_02kuz7
+derelict_ddttl_cyx8r1.pubinfo_ojhsf9
 `
 Tier 1 Questions
   "did you know" is a communication pattern common to user ++++++
