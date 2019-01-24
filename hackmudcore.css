@@ -8,7 +8,7 @@
 .container-PNkimc,
 .members-1998pB{background-color:var(--medium)!important}.attachButtonInner-1iyZ9F svg path,
 .messageGroupBlocked-3wrQQX,
-.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.20"}
+.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.21"}
 .container-1UB9sr,
 .container-2Thooq{margin:0}
 .container-1UB9sr{border:none}.image-33JSyf,
@@ -158,6 +158,8 @@
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI{color:var(--dots);text-transform: uppercase}
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after {border-color: var(--dots)}
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {border-color:var(--dots)}
+.theme-dark .searchAnswer-3Dz2-q, .searchFilter-2ESiM3{color:var(--dark);background-color:var(--primary);}
+
 /*                       */
 /*                       */
 /*  Corey's Code block   */
@@ -406,4 +408,3 @@
 .friendsTable-133bsv .friendsRow-2yicud:hover{border-radius:0!important;background-color:rgba(0,0,0,.35)!important}.tabBar-1E2ExX .primary-3j8BhM{background-color:var(--primary)!important}.searchBar-2_Yu-C{background-color:transparent}.search-2oPWTC .searchBar-3dMhjb,
 .searchBar-1MOL6S,
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R{background:rgba(0,0,0,.35)!important;border-color:rgba(0,0,0,.75)!important;border-radius:0}.keyboardShortcutsModal-3piNz7{background-color:var(--dark)!important}.ddrArrows-lSnH7P div{mix-blend-mode:luminosity}
-input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da-size16, input, ::placeholder{font-family:whiterabbit}
