@@ -44,19 +44,28 @@ Locations:
 >>light.public {get:"people",p:"plantowin",project:"cloudskimmer.da7a"}
 `
 Scripts:
-anonymous_jrttl_u9odhq.pub_info_qk0tiw
-uknown_ddttl_4krjkd.info_xv3o8u
-unknown_ddttl_k2j6js.extern_gb4wvu
-uknown_ddttl_0nezgt.p_1khypa
-derelict_ddttl_t5mu41.extern_r1rmkl
-uknown_jrttl_g6rd5g.extern_2cj56c
-abndnd_jrttl_196xhv.info_smvw3g
-unidentified_jrttl_mf12vw.out_b10rir
-unidentified_jr_eiirvs.info_mdsohi
-uknown_jr_99hl6x.pubinfo_x6r3dy
-abndnd_jr_pu43ta.entry_fz77yz
-derelict_jr_rmhsuv.entry_02kuz7
-derelict_ddttl_cyx8r1.pubinfo_ojhsf9
+unidentified_jrttl_jkav79.access_hmfbsb
+anonymous_ddttl_6ej5q7.public_at3ai8
+anon_ddttl_219juk.out_r9hf4k
+anonymous_jr_o9q4z5.out_x29sum
+anon_ddttl_gl81co.pub_74ak4t
+abandoned_jrttl_robfop.pubinfo_5snuox
+anonymous_jrttl_8t3yv5.external_r3y568
+derelict_ddttl_e8zgeg.pubinfo_1dx4mx
+anon_jr_13bk39.pubinfo_ocfz2o
+anonymous_jr_7i2ueo.pubinfo_m5yfbq
+anon_ddttl_ftpqhn.external_qe2w7v
+uknown_jrttl_casj2a.extern_zim5zs
+anonymous_ddttl_va88n1.access_kl48h5
+abandoned_jrttl_ycpjhc.out_qf1nnt
+abandoned_jrttl_ovuqgp.public_dbk0ql
+anon_jrttl_focz2p.extern_s3a0ag
+abndnd_jr_fxujn4.pubinfo_62j3tl
+abandoned_jrttl_9h20ld.pub_yc511m
+anon_jr_2wio88.info_kuzwpz
+anon_ddttl_kv3f0c.access_8eux9z
+abandoned_jr_t7bj03.entry_8rk2cw
+
 `
 Tier 1 Questions
   "did you know" is a communication pattern common to user ++++++
