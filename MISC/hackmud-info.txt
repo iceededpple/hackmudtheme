@@ -1,4 +1,4 @@
-----LOCKS:
+----LOCKS:----
 EZ_21 [unlock, release, open] 
 EZ_35 [digit:0-9] 
 EZ_40 [prime:2,97]
@@ -31,47 +31,30 @@ orange	6	    cyan	    blue	    green
 Prime: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,
  41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97
 
-----NOTES:
+----NOTES:----
 sys.expose_access_log
 scripts.get_level { name:""}
 
-----HACK THESE:
+----HACK THESE:----
 Locations:
-* tandoori.public
-* light.public
-* empty_nest.public
-
->>light.public {get:"people",p:"plantowin",project:"cloudskimmer.da7a"}
+• tandoori.public
+• light.public
+• empty_nest.public
+----NPCS:----
 `
-unidentified_jrwvr_kyzbdh.pubinfo_2j2dhc
-anon_ddttl_vdnpkt.pub_info_zc69nv
-unknown_jr_1toqcp.access_ovd35e
-anon_jrttl_w8yn37.p_4bmowl
-unknown_ddttl_5yn2h3.out_mifcdn
-unidentified_jrttl_x9cmfm.info_hup4dp
-abndnd_ddttl_cn9y3c.external_siwjqc
-unknown_jr_vlzkqg.p_vc3nlv
-anonymous_jrttl_7uu3yh.p_4iofbm
-unknown_jrwlf_g4qff7.extern_fgjzjt
-derelict_jrttl_ep90wy.info_pujrc6
-unidentified_jrttl_0327qb.entry_hjvxhx
-unknown_jrttl_85iw7a.pub_dve0jh
-unknown_jr_gxcedt.pub_info_vrn31w
-uknown_jrttl_g83zgc.pubinfo_ij6igd
-anon_jrttl_kfwzi3.external_8rk6g9
-derelict_jr_q8bp2r.public_35otgk
-derelict_ddttl_1dj1sc.info_oi4th1
-abandoned_jrttl_ljxq5m.entry_39jji1
-anon_ddttl_127a8r.pub_info_hsjw8q
-unidentified_ddttl_49uyvg.public_ni1hzo
-unidentified_jrttl_946stb.info_7uedna
-uknown_ddttl_prry1a.pub_info_du9jfe
-derelict_jrttl_03p65s.entry_7avle0
-derelict_jrttl_b3jhpl.public_k3mwci
-abandoned_jrttl_nyum5g.entry_51m2t8
-anonymous_jrttl_fniyh2.out_6os8ij
+anon_jrttl_2l4vsm.public_pimv04
+anon_jrttl_5s4mhk.out_1tu4jn
+anonymous_jr_fdosq5.out_rw0ezv
+anon_ddttl_bc9gde.entry_yyiun4
+abandoned_jr_gu5033.info_7lmxwe
+uknown_jrttl_z6hw24.pubinfo_xbvv7u
+anonymous_jrttl_ulwbb9.pub_info_908m9w
+derelict_jrttl_7prz7f.pub_info_6qjwej
+anonymous_jrttl_9bzfw0.pub_h1xylc
+anonymous_jrttl_n6gl2d.pubinfo_url0ff
 `
-Tier 1 Questions
+------------------------
+----Tier 1 Questions----
   "did you know" is a communication pattern common to user ++++++
     fran_lee
   a ++++++ is a household cleaning device with a rudimentary networked sentience
