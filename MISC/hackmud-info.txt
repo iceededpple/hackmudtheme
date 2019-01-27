@@ -42,10 +42,6 @@ Locations:
 • empty_nest.public
 ----NPCS:----
 `
-unidentified_jrttl_yik5zw.access_iuakta
-abndnd_jrttl_50popv.access_uhm2n4
-abndnd_jrttl_gvk23l.access_6iut18
-uknown_jrstg_1pua26.extern_pyvg4q
 unknown_jrwlf_ynu8op.external_r3cu1h
 abndnd_jrttl_ldacc1.out_g8kgr0
 abandoned_jrwvr_pto3w4.external_m6kzvl
