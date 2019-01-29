@@ -41,7 +41,24 @@ Locations:
 • light.public
 • empty_nest.public
 ----NPCS:----
-
+anonymous_jrttl_zfnuk0.public_v9b659
+derelict_jrttl_w6loj4.pub_ps4wdd
+anon_jrttl_8fj294.out_rl0y22
+derelict_jrttl_fs4lx6.entry_yty6ug
+anon_ddttl_g8ohr3.entry_eloljm
+anon_jrttl_7zydql.p_db92pk
+derelict_jr_138zvv.pubinfo_68o81a
+uknown_jrttl_7ffwud.p_qe9zlr
+unidentified_ddttl_lzxbrg.out_sq7ygy
+anon_jrttl_eco7d4.pub_info_muq3y0
+anon_jr_vgnjc7.public_g8zgvh
+uknown_jrttl_ovf51y.pub_ts83qa
+uknown_jrttl_hxcozh.info_sw64m5
+anonymous_jrttl_mbbq38.external_1qm64n
+anon_jrttl_8fj294.out_rl0y22
+derelict_jrttl_fs4lx6.entry_yty6ug
+derelict_ddttl_547xs5.extern_u1aylc
+anon_ddttl_g8ohr3.entry_eloljm
 ------------------------
 ----Tier 1 Questions----
   "did you know" is a communication pattern common to user ++++++
