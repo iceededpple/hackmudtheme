@@ -41,36 +41,7 @@ Locations:
 • light.public
 • empty_nest.public
 ----NPCS:----
-`
-anonymous_jrttl_w7knjn.external_cqh4yl
-anonymous_jr_uv8h96.out_1ccvhd
-anon_jrttl_jy1o6n.pubinfo_9r6swu
-abandoned_jrttl_od9xwc.external_1854lp
-unknown_ddttl_rgg2dj.public_6nnbyb
-unknown_jrttl_mq4tpz.out_zfct46
-derelict_jrttl_l6ecxc.external_ts05c9
-uknown_ddttl_i62os2.pub_info_aof8ad
-unknown_jrttl_6z29qp.pub_info_l9071c
-uknown_ddttl_jfkrlv.access_i17nuw
-unknown_ddttl_4g6w0r.info_7omtk5
-unidentified_jrttl_8dkuso.p_4l11iw
-abandoned_jrttl_2pdav0.pubinfo_fgrwlk
-abndnd_jr_cd3ybv.public_bdv5ai
-abandoned_jrttl_egva7y.pubinfo_6a58yy
-abndnd_jrttl_ark1e2.info_z9ft4b
-unknown_jrttl_nkk2hj.out_fhm0b7
-anonymous_jrttl_y0kzz1.info_o6zc8v
-abndnd_jrwlf_s66twf.extern_us830s
-anonymous_jrttl_4p6jlp.pubinfo_7izy38
-anonymous_jr_9baplk.pub_info_7yuqrx
-anon_jrttl_jy1o6n.pubinfo_9r6swu
-anonymous_jr_c0howw.pub_409xmx
-abandoned_jrttl_od9xwc.external_1854lp
-unknown_ddttl_rgg2dj.public_6nnbyb
-unknown_jrttl_mq4tpz.out_zfct46
-unknown_jrttl_6z29qp.pub_info_l9071c
-uknown_ddttl_jfkrlv.access_i17nuw
-`
+
 ------------------------
 ----Tier 1 Questions----
   "did you know" is a communication pattern common to user ++++++
