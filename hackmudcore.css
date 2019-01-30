@@ -8,7 +8,7 @@
 .container-PNkimc,
 .members-1998pB{background-color:var(--medium)!important}.attachButtonInner-1iyZ9F svg path,
 .messageGroupBlocked-3wrQQX,
-.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.0.22"}
+.wordmark-2iDDfm svg path{display:none}:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.1.0"}
 .container-1UB9sr,
 .container-2Thooq{margin:0}
 .container-1UB9sr{border:none}.image-33JSyf,
@@ -120,12 +120,12 @@
 /* .theme-dark .quickMessage-1yeL4E{color:red}
 /* .theme-dark .quickMessage-2XpSaN{color:var(--fontcolor);background-color:var(--playing)} */
 .theme-dark .username-_4ZSMR{text-decoration-style: none;text-decoration-color:#696969;text-decoration-line: none} /* Text Decoration - Usernames - Chat */
-.theme-dark .unread-1xRYoj{background-color: var(--primary2);} /* Unread bottom Bar - New Unreads - Background */
+.theme-dark .unread-1xRYoj{background-color: var(--primary2);border-radius:0px} /* Unread bottom Bar - New Unreads - Background */
 /* .theme-dark .unread-1s3J68{background-color: var(--primary2);} */ /* Unread Top Bar Background */
 /* .theme-dark .unreadBottom-3hWQ7c{background-color: var(--primary2);} */ /* Unread Bottom Bar - Background */
 .theme-dark .base-gE7OpD span{color: var(--primary2);} /* Name Is Typing */
-.theme-dark .channelName-3stJzi{color:var(--primary);} /* Friend Name / Channel Name - Color */
-.theme-dark .channelIcon-MsmKOO{color:var(--primary2);} /* Channel Icon - Color */
+.theme-dark .channelName-3stJzi{color:var(--prefix);} /* Friend Name / Channel Name - Color */
+.theme-dark .channelIcon-MsmKOO{color:var(--dots);} /* Channel Icon - Color */
 .theme-dark .side-8zPYf6 .itemSelected-1qLhcL{font-size: 14px;color:var(--primary2)} /* User Settings - Font Size or Color */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52{font-size: 14px;} /* User Settings - Font Size or Color */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover{color:var(--primary)} /* User Settings - Font Size or Color */
@@ -137,7 +137,11 @@
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud{font-size:14px;letter-spacing: -.5px} /* Friends Table */
 .theme-dark .username-3gJmXY{color: var(--primary)} /* Friend Name */
 .theme-dark .discriminator-xUhQkU{color: var(--primary2)} /* Friend Discriminator */
-.theme-dark .note-3kmerW textarea{color:var(--fontcolor);font-family: whiterabbit;font-size: 14px;letter-spacing: -.5px} /* Friend Note */
+.theme-dark .note-3kmerW textarea{color:var(--fontcolor);font-family: whiterabbit;font-size: 14px;letter-spacing: -.5px;background-color: var(--dark)} /* Friend Note */
+.theme-dark .note-3HfJZ5 textarea,.quickMessage-1yeL4E, .quickMessage-2XpSaN, .search .search-bar,.search-bar .search-bar-inner,.search-bar.search-bar-light .search-bar-inner {background-color:var(--dark)!important;font-family: whiterabbit!important}
+.theme-dark .note-3HfJZ5 textarea::placeholder{color: lime!important}
+.theme-dark .note-3kmerW textarea::placeholder{color:lime!important}
+.theme-dark .quickMessage-1yeL4E::placeholder,.quickMessage-2XpSaN::placeholder{color: orange!important}
 .theme-dark .nameMuted-1MCOt4{color: #303030;font-family: whiterabbit;font-size: 14px;}
 .theme-dark .content-OzHfo4{margin: 0px;padding: 1px}
 .theme-dark .activityText-sLG0UL{color:var(--primary)}
@@ -151,15 +155,26 @@
 .theme-dark .topPill-30KHOu .itemSelected-1qLhcL{color:var(--dark)!important;}
 .theme-dark .quickswitcher-3JagVE{background-color:var(--dark);}
 .theme-dark .input-2VB9rf,.input-2VB9rf:focus,.input-2VB9rf::placeholder{background-color:var(--light);color:var(--primary);font-family: whiterabbit;letter-spacing: -.5px}
-.theme-dark .container-3-pyIM .content-2M3n_H a,.content-2M3n_H {color: red}
-.theme-dark .container-3-pyIM::before{color:red;content:"::: TRUST COMMUNICATION :::";padding-left: 18px}
-.theme-dark .timestamp-1E3uAL::before{color:red;content:":::";font-size:14.5px;margin-right:3px}
+.theme-dark .input-2VB9rf::placeholder{color: var(--primary)}
+.theme-dark .quickswitcher-3JagVE *{color: var(--primary)}
+.theme-dark .contentDefault-16dKSY .note-S--UP5{color: var(--prefix)}
+.theme-dark .container-3-pyIM .content-2M3n_H a {color: var(--mentions);text-transform: uppercase}
+.theme-dark .content-2M3n_H {color: var(--fontcolor);text-transform: uppercase}
+.theme-dark .container-3-pyIM::before{color:red;content:":::TRUST COMMUNICATION:::";padding-left: 18px}
+/*.theme-dark .timestamp-1E3uAL::before{color:red;content:":::";font-size:14.5px;margin-right:3px}*/ 
 .theme-dark .jumpToPresentBar-9P20AM button:first-child,.jumpToPresentBar-9P20AM button:last-child{background-color:var(--primary);color:var(--dark);font-family: whiterabbit;letter-spacing: -.5px}
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI{color:var(--dots);text-transform: uppercase}
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after {border-color: var(--dots)}
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {border-color:var(--dots)}
 .theme-dark .searchAnswer-3Dz2-q, .searchFilter-2ESiM3{color:var(--dark);background-color:var(--primary);}
 .theme-dark .hasMore-3e72_v button {color:var(--primary);background-color: var(--light);font-family: whiterabbit;border-color:var(--primary)}
+.theme-dark .guildName-1Bc3Ta{color:var(--primary)}
+.theme-dark .channelName-3kBz6H {color: var(--prefix)}
+.theme-dark .iconBadge-2dji3k{background-color: var(--primary)}
+.theme-dark .friend-2PO6ke .nickname-1ALwRt{color:lime}
+.theme-dark .weightMedium-2iZe9B{color: var(--primary2)}
+.statusGreen-pvYWjA{color:var(--primary)}
+.theme-dark .primary-jw0I4K{color: var(--fontcolor)}
 /*                       */
 /*                       */
 /*  Corey's Code block   */
