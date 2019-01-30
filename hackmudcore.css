@@ -5,7 +5,7 @@
 }
 .container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB{background-color:var(--medium)!important}
 .attachButtonInner-1iyZ9F svg path,.messageGroupBlocked-3wrQQX,.wordmark-2iDDfm svg path{display:none}
-:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.1.0"}
+:root{--primary:#1fdbf6;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#f20cee;--fontcolor:#6288AF;--mentions:#ffa100;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--version:"1.1.1"}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -179,6 +179,24 @@
 .theme-dark .weightMedium-2iZe9B{color: var(--primary2)}
 .statusGreen-pvYWjA{color:var(--primary)}
 .theme-dark .primary-jw0I4K{color: var(--fontcolor)}
+.theme-dark .noticeDanger-7u-yT9{color: var(--dark)}
+/* Search Field */
+.theme-dark .jumpButton-Ia2hRJ{background-color: var(--primary2);color: var(--dark)}
+.theme-dark .jumpButton-Ia2hRJ:hover{background-color: var(--primary);color: var(--dark)}
+.theme-dark .searchResultsWrap-2DKFzt{background-color: var(--dark)}
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf{background-color: var(--dark);color:var(--prefix);}
+.theme-dark .searchResult-3pzFAB:before{background-image:linear-gradient(0deg,rgba(47,49,54,0),var(--medium))}
+.theme-dark .searchResult-3pzFAB:after{background-image:linear-gradient(180deg,rgba(47,49,54,0),var(--medium))}
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA{background-color:var(--light)}
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA{box-shadow:0 0 10px 6px var(--medium)}
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA{border-color: var(--primary);border-radius: 0px}
+.theme-dark .searchHeader-1l-wpR{background-color:var(--dark);}
+.theme-dark .searchHeader-1l-wpR .totalResults-gxvzgw {color:var(--primary)}
+.theme-dark .searchHeader-1l-wpR .tab-2Ixsn0 {color:var(--primary)}
+.theme-dark .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0:hover{border-bottom-color: var(--primary)}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA{background-color: var(--light);border-top-color: var(--primary);border-bottom-color: var(--primary)}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz{border-color: var(--primary);border-radius: 0px}
+/* End Search Field */
 /*                       */
 /*                       */
 /*  Corey's Code block   */
