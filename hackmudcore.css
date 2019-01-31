@@ -3,9 +3,24 @@
     font-family: whiterabbit;
     src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
 }
-.container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB{background-color:var(--medium)!important}
+.container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB{background-color:var(--light)!important}
 .attachButtonInner-1iyZ9F svg path,.messageGroupBlocked-3wrQQX,.wordmark-2iDDfm svg path{display:none}
-:root{--primary:#00FFFF;--primary2:#17a2b2;--dark:#0c0e0f;--medium:#111216;--light:#131517;--chancategory:#1fdbf6;--prefix:#FF00EC;--fontcolor:#83B0F2;--mentions:#FF8000;--timestamp:#72767d;--dots:#4c4f50;--playing:#222222;--lime:#1EFF00;--version:"1.1.3"}
+:root{--primary:rgb(0, 255, 255);
+    --primary2:rgb(23,162,178);
+    --primary2-2:23, 162, 178;
+    --dark:rgb(14, 14, 14);
+    --medium:rgb(16, 18, 21);
+    --light:rgb(24, 25, 27);
+    --chancategory:rgb(31, 219, 246);
+    --prefix:rgb(255, 0, 236);
+    --fontcolor:rgb(131, 176, 242);
+    --mentions:rgb(255, 128, 0);
+    --timestamp:rgb(114, 118, 125);
+    --dots:rgb(76, 79, 80);
+    --playing:rgb(34, 34, 34);
+    --lime:rgb(30, 255, 0);
+    --yellow:rgb(255, 216, 99);
+    --version:"1.1.4"}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -79,7 +94,7 @@
 .theme-dark .markup-2BOw-j code.inline{background-color: var(--medium);font-family: whiterabbit;border-radius: 0px;padding: 3px} /* Code Embed - Single Line */
 .theme-dark .name-2WpE7M{color: var(--fontcolor);font-size:14px;font-family: whiterabbit;} /* Friends List: Names */
 .theme-dark .name-2WpE7M:hover{color: var(--primary);font-size:14px;font-family: whiterabbit;} /* Friends List: Names */
-.theme-dark .activity-525YDR{color: var(--primary2);font-size:10px;font-family: whiterabbit;} /* Friends List: "playing game" */
+.theme-dark .activity-525YDR{color: var(--yellow);font-size:10px;font-family: whiterabbit;} /* Friends List: "playing game" */
 .theme-dark .nameMutedText-3Vj4bM{color:var(--fontcolor);font-size:14px;font-family: whiterabbit;letter-spacing: -.5px;} /* Server: Muted Text Channel */
 .theme-dark .nameMutedVoice-3oxyQZ{color:var(--fontcolor);font-size:14px;font-family: whiterabbit;letter-spacing: -.5px;} /* Server: Muted Voice Channel */
 .theme-dark .nameDefaultText-24KCy5{color:var(--fontcolor);font-size:14px;font-family: whiterabbit;letter-spacing: -.5px;} /* Server: Default Text Channel */
@@ -244,18 +259,27 @@
 .theme-dark .topPill-30KHOu .item-PXvHYJ {color: var(--primary)}
 .topPill-30KHOu .itemSelected-1qLhcL{background-color:var(--primary)!important;color:#fff!important}
 .theme-dark .topPill-30KHOu .itemSelected-1qLhcL{color:var(--dark)!important;}
-.theme-dark .separator-2zcjq8 {background-color: red}
+.theme-dark .separator-2zcjq8 {background-color: var(--primary)}
 .theme-dark .separator-gCa7yv {background-color: var(--primary2)}
 /* END FRIENDS BUTTONS TOP BAR */
 /* LIBRARY */
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {background-color:var(--primary2)!important; padding: 0px}
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {background-color: var(--primary)!important;padding: 0px}
+.theme-dark .emptyStateHeader-3CJtAy{color: var(--primary)}
+.theme-dark .emptyStateDescription-2IePen{color: var(--primary2)}
+.emptyStateLarge-1nQX5A{background-color: var(--medium)}
+.scroller-2FKFPG{background-color: var(--medium)}
 /* Library GIFT INVENTORY */
 .anchor-3Z-8Bb {color: var(--lime)}
 .emptyStateSubtext-2njjqg {color:var(--fontcolor)!important}
 .header-2HrZI4 {color: var(--primary2)!important}
-.header-3YT7-d h2 {color: var(--fontcolor)!important}
-.inputPrompt-1vnYnD {color: var(--fontcolor)!important}
+.header-3YT7-d h2 {color: var(--primary)!important}
+.inputPrompt-1vnYnD {color: var(--primary)!important}
+.theme-dark .emptyStateHeader-1ADtcL, .theme-dark .header-2HrZI4{color: var(--fontcolor)}
+.theme-dark .headerCell-3L6rFG{border-left-color: var(--primary)}
+.theme-dark .header-39GIC8{color: var(--primary2)}
+.theme-dark .headerCellSorted-3a5AzJ{color: var(--primary)}
+.theme-dark .divider-3573oO{background-color: var(--primary)}
 /* END OF LIBRARY */
 /* MENTIONS */
 .theme-dark .jumpButton-3DTcS_{background-color: var(--primary2)!important;color: white}
@@ -264,7 +288,22 @@
 .theme-dark .mentionFilter-1PQ6ey .value-2k8Drt{color: var(--primary)!important}
 .theme-dark .mentionFilter-1PQ6ey .label-12YslM {color: #17a2b24d}
 .theme-dark .top-28JiJ- .itemSelected-1qLhcL{color: var(--primary)!important;border-bottom-color: var(--primary)}
-    /* END OF MENTIONS */
+/* END OF MENTIONS */
+/* FRIENDS */
+.privateChannels-1nO12o header{color: var(--primary)!important}
+.activityIconForeground-3VIgI8{fill:var(--yellow) ;}
+.friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ{color: var(--primary2)!important}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA{background-color: var(--primary)}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {border-bottom-color: var(--primary)}
+.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK h2{color: var(--primary)}
+.theme-dark .friendsTable-133bsv .friendTableAddDescription-19D3dl{color: var(--primary2)}
+.theme-dark .wrapper-1cBijl .addFriendInput-4bcerK{color:white!important}
+.theme-dark .wrapper-1cBijl .addFriendInput-4bcerK::placeholder{color: var(--fontcolor)}
+.theme-dark .text-GwUZgS, .theme-dark .title-2BxgL2{color: var(--fontcolor)}
+/* END OF FRIENDS */
+.foreground-2W-aJk{color: var(--yellow)!important}
+.colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S{color: var(--mentions)!important}
+.theme-dark .dividerEnabled-2TTlcf {border-bottom-color:rgba(var(--primary2-2),.2);} /* Chat Lines */
 /*                       */
 /*                       */
 /*  Corey's Code block   */
