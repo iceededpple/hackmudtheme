@@ -730,3 +730,6 @@ input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day{border-left-color:#18191c;border-top-color:#18191c;color:#f6f6f7}
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__current-month{border-bottom-color:rgba(24,25,28,.3);color:#f6f6f7}
 /* End Search Popout */
+/* Join,Create Server */
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{background:var(--medium)}
+.theme-dark .or-3THJsp, .theme-light .or-3THJsp{background-image:none!important}
