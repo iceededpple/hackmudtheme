@@ -20,7 +20,8 @@
     --playing:rgb(34, 34, 34);
     --lime:rgb(30, 255, 0);
     --yellow:rgb(255, 216, 99);
-    --version:"1.1.4"}
+    --yellowrgb:255, 216, 99;
+    --version:"1.1.5";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -164,7 +165,7 @@
 .theme-dark .nameMuted-1MCOt4{color: #303030;font-family: whiterabbit;font-size: 14px;}
 .theme-dark .content-OzHfo4{margin: 0px;padding: 1px}
 .theme-dark .activityText-sLG0UL{color:var(--primary)}
-.theme-dark .input-cIJ7To{color:var(--primary);font-family: whiterabbit}
+.theme-dark .input-cIJ7To{color:var(--lime);font-family: whiterabbit}
 .theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg{color:var(--primary)}
 .theme-dark .faded-3bns_w /* Username & Email - User Settings */
 .theme-dark .lookFilled-1Gx00P{font-family:whiterabbit} /* Button - User Settings */
@@ -304,6 +305,53 @@
 .foreground-2W-aJk{color: var(--yellow)!important}
 .colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S{color: var(--mentions)!important}
 .theme-dark .dividerEnabled-2TTlcf {border-bottom-color:rgba(var(--primary2-2),.2);} /* Chat Lines */
+/*SPOILER*/
+.theme-dark .spoilerWarning-2aAZq1{color: rgba(var(--yellowrgb),.8)}
+.theme-dark .spoilerContainer-331r0R:hover .spoilerWarning-2aAZq1{color: var(--yellow);}
+/*END SPOILER*/
+/* SERVER MANAGEMENT: */
+/* - OVERVIEW */
+.theme-dark .defaultColor-1_ajX0{color: var(--primary)}
+.theme-dark .h5-18_1nd{color: var(--primary2)}
+.Select .Select-control div{color: var(--primary)}
+.theme-dark .select-2TCrqx .Select-control .Select-value>.Select-value-label{color: var(--primary)}
+.theme-dark .select-2TCrqx .Select-option{color: var(--primary2);background-color: var(--light)}
+.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover{color: var(--primary);background-color: var(--medium)}
+.theme-dark .icon-JJBzjE {color: var(--yellow);}
+.theme-dark .descChecked-XkfPsU, .theme-dark .titleChecked-2wg0pd{color: var(--dark)!important}
+.lookGhost-2Fn_0-.colorBrand-3pXr91{color: var(--primary)}
+.lookGhost-2Fn_0-.colorGrey-2DXtkV{color: var(--primary2)}
+.theme-dark .input-1UhAnY{color: var(--lime)}
+/* - AUDIT LOG */
+.theme-dark .userHook-3AdCBF{color: var(--lime)}
+.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN{color: var(--fontcolor)}
+.theme-dark .auditLog-3jNbM6 strong{color: var(--mentions)}
+.theme-dark .timestamp-1mruiI{color: var(--timestamp)}
+.theme-dark .expandForeground-1nZ4VR{stroke: var(--prefix)}
+.theme-dark .quickSelect-3BxO0K{color: var(--primary)}
+/* - ROLES */
+.theme-dark .title-31JmR4{color: var(--primary)}
+/* - EMOJI */
+.theme-dark .emojiAliasPlaceholder-3H_iZA{color: var(--primary2)}
+/* - MEMBERS */
+.theme-dark .member-1q7VfX .tag-1YGWN9{color: var(--primary)}
+.theme-dark .pruneLink-3V7wes {color: red;font-weight: bold}
+/* - INVITES */
+.username-38XC76{color: var(--lime)}
+.channelName-13-Sm9{color: var(--mentions)}
+.inviteCode-202N0U{color: var(--fontcolor)}
+.textAlignRight-9VxZrl{color: var(--prefix)}
+.theme-dark .inviteRowName-1tVaxu{color: var(--lime)}
+.lookOutlined-3sRXeN.colorGreen-29iAKY,.lookFilled-1Gx00P.colorGreen-29iAKY{letter-spacing: -.7px;font-size: 12px}
+/* - BANS */
+.theme-dark .bannedUser-1IalTM .username-1b3MVI{color: var(--lime)}
+.theme-dark .bannedUser-1IalTM .username-1b3MVI .discrim-oGb-FO, .theme-dark .bannedUserModal-3RJCOV .reason-YbfGC6, .theme-dark .bannedUserModal-3RJCOV .userDiscrim-1D2NlF{color: var(--primary2)}
+/* - NOTIFICATION SETTINGS */
+/* -- UNSAVED CHANGES! */
+.theme-dark .elevationHigh-1PneE4{color: var(--primary)!important;background-color:var(--light)!important}
+.theme-dark .message-c9-HCF{color: red!important;font-weight:bold}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover{background-color: red!important}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6{background-color: var(--dots)!important}
 /*                       */
 /*                       */
 /*  Corey's Code block   */
@@ -555,8 +603,8 @@ svg circle[stroke*="rgb(151, 168, 228)"]{stroke:var(--primary)!important}
 .wrapper-35wsBm{border:none!important;border-radius:0!important}
 .guildIconExpired-2Qcq05,.guildIconImage-3qTk45{background-color:transparent!important;border-radius:0!important}
 .embedInner-1-fpTo{background-color:var(--dark)!important;border-radius:0!important;border-color:rgba(0,0,0,.5)!important}
-.bd-modal-wrapper .footer button:hover,.button-3To2tQ.buttonSize-DbrWhv:hover,.lookFilled-1Gx00P.colorBrand-3pXr91:hover,.lookFilled-1Gx00P.colorGreen-29iAKY:hover,.lookInverted-2D7oAl.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorGreen-29iAKY:hover .lookFilled-1Gx00P.colorBrand-3pXr91:hover{background-color:var(--primary2)!important}
-#friends .friends-table .friends-row .friends-column-actions .friends-action,.bd-modal-wrapper .footer button,.button-3To2tQ.buttonSize-DbrWhv,.lookFilled-1Gx00P.colorBrand-3pXr91,.lookFilled-1Gx00P.colorBrand-3pXr91:disabled,.lookFilled-1Gx00P.colorGreen-29iAKY,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookOutlined-3sRXeN.colorBrand-3pXr91,.lookOutlined-3sRXeN.colorGreen-29iAKY{-webkit-box-shadow:inset 0 -4px 0 rgba(35,39,42,.6);background-color:var(--primary)!important;border:1px solid #202225!important;box-shadow:inset 0 -2px 0 rgba(35,39,42,.6);color:#000;border-radius:0}
+.bd-modal-wrapper .footer button:hover,.button-3To2tQ.buttonSize-DbrWhv:hover,.lookFilled-1Gx00P.colorBrand-3pXr91:hover,.lookFilled-1Gx00P.colorGreen-29iAKY:hover,.lookInverted-2D7oAl.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorGreen-29iAKY:hover .lookFilled-1Gx00P.colorBrand-3pXr91:hover{background-color:var(--primary)!important;color: black}
+#friends .friends-table .friends-row .friends-column-actions .friends-action,.bd-modal-wrapper .footer button,.button-3To2tQ.buttonSize-DbrWhv,.lookFilled-1Gx00P.colorBrand-3pXr91,.lookFilled-1Gx00P.colorBrand-3pXr91:disabled,.lookFilled-1Gx00P.colorGreen-29iAKY,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookOutlined-3sRXeN.colorBrand-3pXr91,.lookOutlined-3sRXeN.colorGreen-29iAKY{-webkit-box-shadow:inset 0 -4px 0 rgba(35,39,42,.6);background-color:var(--primary2)!important;border:1px solid #202225!important;box-shadow:inset 0 -2px 0 rgba(35,39,42,.6);color:white;border-radius:0}
 .lookFilled-1Gx00P.colorRed-1TFJan:hover,.lookOutlined-3sRXeN.colorRed-1TFJan:hover{background-color:#ad1f2d;border:1px solid #202225}
 .lookFilled-1Gx00P.colorRed-1TFJan,.lookOutlined-3sRXeN.colorRed-1TFJan{-webkit-box-shadow:inset 0 -4px 0 rgba(35,39,42,.6);background-color:#dc3545;border:1px solid #202225;box-shadow:inset 0 -2px 0 rgba(35,39,42,.6);color:#f6f6f7;border-radius:0}
 .lookLink-9FtZy-.colorPrimary-3b3xI6:hover .contents-18-Yxp{background:0 0!important}
@@ -589,8 +637,9 @@ svg circle[stroke*="rgb(151, 168, 228)"]{stroke:var(--primary)!important}
 .jumpButton-3DTcS_{background-color:rgba(0,0,0,.5)!important}
 .actionButtons-1sUUug{box-shadow:none!important;background:0 0!important}
 .item-1Yvehc:hover{background-color:rgba(0,0,0,.35)!important;border-radius:0}
-.checkbox .checkbox-inner input[type=checkbox]:checked+span,.checkbox-1ix_J3{border-color:var(--primary)!important;background-color:var(--primary)!important}
-svg[name=Checkmark] g polyline{stroke:#000}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span,.checkbox-1ix_J3{border-color:var(--primary2)!important;background-color:var(--primary2)!important;}
+.theme-dark .checked-3_4uQ9{background-color: var(--primary)!important;border-color: var(--primary)!important}
+svg[name=Checkmark] g polyline{stroke:var(--dark)!important;}
 .ace_scroller{background:var(--light)}
 .ace-monokai .ace_gutter-active-line,.ace-monokai .ace_marker-layer .ace_active-line{background-color:rgba(0,0,0,.55)!important}
 .ace-monokai .ace_gutter{color:#fff;background:var(--dark)!important}
