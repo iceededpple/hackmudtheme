@@ -21,7 +21,7 @@
     --lime:rgb(30, 255, 0);
     --yellow:rgb(255, 216, 99);
     --yellowrgb:255, 216, 99;
-    --version:"1.1.5";}
+    --version:"1.1.6";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -352,6 +352,10 @@
 .theme-dark .message-c9-HCF{color: red!important;font-weight:bold}
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover{background-color: red!important}
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6{background-color: var(--dots)!important}
+/* RTC CONNECTION */
+.theme-dark .container-2x5lvQ section p{color: var(--fontcolor)}
+.theme-dark .container-2x5lvQ section strong{color: var(--prefix)}
+.popout-3sVMXz header{color: var(--primary)}
 /*                       */
 /*                       */
 /*  Corey's Code block   */
