@@ -21,7 +21,9 @@
     --lime:rgb(30, 255, 0);
     --yellow:rgb(255, 216, 99);
     --yellowrgb:255, 216, 99;
-    --version:"1.1.6";}
+    --primaryrgb:0,255,255;
+    --primary2rgb:23,162,178;
+    --version:"1.1.7";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -356,6 +358,16 @@
 .theme-dark .container-2x5lvQ section p{color: var(--fontcolor)}
 .theme-dark .container-2x5lvQ section strong{color: var(--prefix)}
 .popout-3sVMXz header{color: var(--primary)}
+/* misc stuff */
+.theme-dark .bda-slist .bda-footer a, .theme-dark .bda-slist .bda-footer button{color:black!important}
+#app-mount .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb{background-color:var(--primary)!important}
+.theme-dark .unread-1Dp-OI{background-color: var(--primary);border-radius: 0}
+/* Gif Favorites */
+.theme-dark .emptyHintCard-2mUdMe{background-color: var(--light);}
+.theme-dark .categoryFadeBlurple-1j72_A{background-color: rgb(var(--primaryrgb),.6)}
+.theme-dark .categoryFadeBlurple-1j72_A:hover{background-color: rgb(var(--primary2rgb),.6);border-color: rgb(var(--primary2rgb),.6)}
+.theme-dark .wrapper-1GJGVj{color: var(--primary)}
+.theme-dark .gif-1TcNIB:hover{border-color: red!important}
 /*                       */
 /*                       */
 /*  Corey's Code block   */
@@ -712,7 +724,7 @@ svg[name=Checkmark] g polyline{stroke:var(--dark)!important;}
 .footer-2yfCgX{border-radius:0;background-color:var(--dark)!important}
 .bd-modal-wrapper .bd-modal-inner{border:none;border-radius:0}
 #bda-qem-favourite-container .scroller-wrap,#bda-qem-twitch-container .scroller-wrap{overflow:hidden;overflow-y:scroll}
-.inner-1W0Bkn{border-radius:0!important}
+.inner-1W0Bkn{border-radius:0!important;background-color: transparent;}
 .avatarSmall-3ACRaI .status-2zcSVk{width:3px!important;height:100%!important;right:-2px;top:-2px}
 .friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .status-3fQvEa{height:15px!important;width:15px!important}
 .container-3gCOGc{background-color:var(--medium)!important}
