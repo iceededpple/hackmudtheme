@@ -23,7 +23,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.1.7";}
+    --version:"1.1.8";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -361,7 +361,7 @@
 /* misc stuff */
 .theme-dark .bda-slist .bda-footer a, .theme-dark .bda-slist .bda-footer button{color:black!important}
 #app-mount .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb{background-color:var(--primary)!important}
-.theme-dark .unread-1Dp-OI{background-color: var(--primary);border-radius: 0}
+.theme-dark .unread-1Dp-OI{background-color: var(--mentions);border-radius: 0}
 /* Gif Favorites */
 .theme-dark .emptyHintCard-2mUdMe{background-color: var(--light);}
 .theme-dark .categoryFadeBlurple-1j72_A{background-color: rgb(var(--primaryrgb),.6)}
