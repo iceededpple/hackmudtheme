@@ -24,7 +24,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.1.9";}
+    --version:"1.2.0";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -396,12 +396,16 @@
 #bd-pub-button:hover{background-color:var(--primary);box-shadow:0 0 30px #000;text-shadow:0 0 3px #000}
 .guildsWrapper-5TJh6A{background-color:var(--medium)!important}
 .guilds-1q_RqH,.scrollerWrap-1IAIlv{background:0 0!important}
-.guild-1EfMGQ,.guild-1EfMGQ .guildInner-3DSoA4 a,.iconSizeLarge-161qtT{height:37px;width:37px}
+.guild-1EfMGQ,.guild-1EfMGQ .guildInner-3DSoA4 a,.iconSizeLarge-161qtT{height:37px;width:40px}
 .guildsWrapper-5TJh6A{width:55px}
 .guilds-1q_RqH{padding:5px 0 5px 10px}
 .friendsOnline-_wi_fM{margin-left:-7px}
 .guild-1EfMGQ .guildInner-3DSoA4[style*=border-radius]:not(.guildsAdd-21_IdK),.guild-1EfMGQ+.guild-1EfMGQ:not(.guildsAdd-21_IdK){border-radius:0!important}
+/* Re-write for add server and discovery
 .guildsAdd-21_IdK{background:0 0;color:#fff;border-color:#fff;z-index:100;background-color:var(--dark)!important;box-shadow:0 0 0 12.5px var(--medium);position:absolute;left:12.5px;bottom:12.5px;line-height:20px;height:30px;width:30px;box-sizing:border-box;border-radius:50%!important}
+*/
+.guildsAdd-21_IdK{background:0 0!important;color:#fff;border-color:#fff;z-index:100;box-sizing:border-box;border-radius:50%!important}
+.guildsDiscoverInner-wC7iEN{top:0!important}
 .guildsAddInner-1KMFy-{top:-2px}
 .noIcon-1a_FrS{line-height:200%!important}
 .guildsError-3cFMtY{height:35px;width:35px;line-height:30px;border-radius:0;color:#fff!important;box-shadow:0 0 15px .5px #f04747;transition:all .2s ease}
