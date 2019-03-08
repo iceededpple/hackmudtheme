@@ -488,10 +488,10 @@
     height:30px;
     top:21px;
 }
-.theme-dark .container-2td-dC{
+/*.theme-dark .container-2td-dC{
     height: 32px;
     width: 32px;
-}
+}*/
 /*                       */
 /*                       */
 /*  Corey's Code block   */
@@ -883,11 +883,11 @@ input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da
 .theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{background:var(--medium)}
 .theme-dark .or-3THJsp, .theme-light .or-3THJsp{background-image:none!important}
 /* Unread Border Possibility? */
-#app-mount .container-2td-dC .wrapper-2lTRaf{
+/*#app-mount .container-2td-dC .wrapper-2lTRaf{
     border-radius: calc(var(--Round1) - 2px)!important;
     background-color:rgba(0,0,0,.2)!important;
 }
-
+*//*
 #app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before,
 #app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:before {
 	top: 50%!important;
@@ -895,8 +895,8 @@ input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da
 	border-radius:var(--Round1)!important;
 	width:100%!important;
 	background-color:transparent;
-	z-index:unset !important; /*reset from vsg*/
-}
+	z-index:unset !important; /*reset from vsg
+    *//*}*//*
 #app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before {
     border:2px solid var(--gbcolor);
     height: 100% !important;
@@ -916,3 +916,4 @@ input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da
     border-radius: var(--Round1);
     background-color:var(--gbcolor1)!important;
 }
+*/
