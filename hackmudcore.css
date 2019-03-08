@@ -24,7 +24,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.2.7";}
+    --version:"1.2.8";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -387,7 +387,13 @@
 .theme-light .title-2Dc-Cb{color: var(--primary)}
 /* New Guild (Server) Stuff */
 .container-1ETFDs,.container-1ETFDs .homeButton-2Cw51C a,.iconSizeLarge-161qtT, .guildsError-b7zR5H{height:30px;width:30px;border-radius: 0px;}
-.theme-dark .guildIcon-VlWW86, .guildsError-b7zR5H{/*left: -10px;*/border-radius: 0px}
+.theme-dark .guildIcon-VlWW86, .guildsError-b7zR5H{
+    /*left: -10px;*/
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary)
+}
 .theme-dark .guildsError-b7zR5H{padding-top: 0px}
 .wrapper-21TRaf{left: -10px}
 .container-2td-dC{margin-bottom: -7px;border-radius: 0px;left: -10px}
@@ -395,6 +401,36 @@
 /* .plus-3UqSQu */
 .theme-dark .circleIconButton-jET_ig{height: 30px;width: 30px;}
 .theme-dark .guildSeparator-3s64Iy::after{background: var(--primary)}
+/* Guild Error */
+.guildsError-b7zR5H {
+    -webkit-box-sizing: border-box;
+    border-radius: 0%;
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+  }
+.guildsErrorContainer-2uWYsE {
+    margin-bottom: 10px;
+  }
+  .anchor-3Z-8Bb {
+    color: #00b0f4;
+    text-decoration: none;
+  }
+  .theme-dark .guildsError-b7zR5H {
+    -webkit-transition: background-color .2s ease-out;
+    background: #413338;
+    border-color: #f04747;
+    color: #fff;
+    transition: background-color .2s ease-out;
+  }
 /* New Home Icon (Thanks Sly Jonas)*/
 .homeIcon-tEMBK1 {
     background-image:url('https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/Custom/hackmudicon.png');
@@ -411,7 +447,14 @@
     border-radius:0px;
     left:0px;
     color: var(--dots);
-    border-color: var(--dots)
+    border-color: var(--primary)
+}
+.theme-dark .circleIconButton-jET_ig:hover {
+    position:relative;
+    border-radius:0px;
+    left:0px;
+    color: var(--timestamp);
+    border-color: var(--primary2)
 }
 /* New Friend Message */
 .container-1aNBdK{height: 40px!important;width: 30px!important}
@@ -430,13 +473,23 @@
 }
 .theme-dark .selected-nT-gM3:before{
     border-radius:0;
-    height:30px;
+    height:32px!important;
     width: 5px;
     margin-top:-21px;
     left:0px!important;
     background:var(--primary)!important;
 }
+/* Unread Border Possibility? 
+.theme-dark .unread-2OHH1w{
+    border: red;
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    display: block;
+    padding-bottom: 30px;
 
+}
+*/
 .theme-dark .container-2td-dC.da-selected:before {
     height:30px;
     top:21px;
