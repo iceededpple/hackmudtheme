@@ -24,7 +24,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.2.3";}
+    --version:"1.2.4";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -411,10 +411,10 @@
     left:0px;
 }
 /* New Friend Message */
-.container-1aNBdK{height: 40px!important}
+.container-1aNBdK{height: 40px!important;width: 30px!important}
 .inner-1W0Bkn{height: 30px;width: 30px}
 .theme-dark .wrapper-2lTRaf a{border-radius: 0px/*;background-color: red!important;*/}
-.avatar-3f3jk4 .inner-1x-wIi{border-radius: 0px;left: -10px!important;}
+/*.avatar-3f3jk4 .inner-1x-wIi{border-radius: 0px;left: -10px!important;}*/
 .image-33JSyf, .mask-3OgeRz, .wrapper-2F3Zv8{border-radius: 0px}
 /* Unread */
 .theme-dark .unread-2OHH1w:before{
