@@ -396,7 +396,7 @@
 #bd-pub-button:hover{background-color:var(--primary);box-shadow:0 0 30px #000;text-shadow:0 0 3px #000}
 .guildsWrapper-5TJh6A{background-color:var(--medium)!important}
 .guilds-1q_RqH,.scrollerWrap-1IAIlv{background:0 0!important}
-.guild-1EfMGQ,.guild-1EfMGQ .guildInner-3DSoA4 a,.iconSizeLarge-161qtT{height:37px;width:40px}
+.guild-1EfMGQ,.guild-1EfMGQ .guildInner-3DSoA4 a,.iconSizeLarge-161qtT{height:50px;width:50px}
 .guildsWrapper-5TJh6A{width:55px}
 .guilds-1q_RqH{padding:5px 0 5px 10px}
 .friendsOnline-_wi_fM{margin-left:-7px}
@@ -405,8 +405,11 @@
 .guildsAdd-21_IdK{background:0 0;color:#fff;border-color:#fff;z-index:100;background-color:var(--dark)!important;box-shadow:0 0 0 12.5px var(--medium);position:absolute;left:12.5px;bottom:12.5px;line-height:20px;height:30px;width:30px;box-sizing:border-box;border-radius:50%!important}
 */
 .guildsAdd-21_IdK{background:0 0!important;color:#fff;border-color:#fff;z-index:100;box-sizing:border-box;border-radius:50%!important}
+.theme-dark .wrapper-2lTRaf{background:none!important}
+.theme-dark .circleIconButton-jET_ig{background:none!important}
 .guildsDiscoverInner-wC7iEN{top:0!important}
 .guildsAddInner-1KMFy-{top:-2px}
+.plus-3UqSQu{padding-top:5px;padding-right:1px}
 .noIcon-1a_FrS{line-height:200%!important}
 .guildsError-3cFMtY{height:35px;width:35px;line-height:30px;border-radius:0;color:#fff!important;box-shadow:0 0 15px .5px #f04747;transition:all .2s ease}
 .guild-1EfMGQ .guildIcon-CT-ZDq,.guild-1EfMGQ .guildInner-3DSoA4{background-color:transparent!important}
