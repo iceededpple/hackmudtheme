@@ -409,6 +409,8 @@
     left:0px;
 }
 /* New Friend Message */
+.container-1aNBdK{height: 40px!important}
+.inner-1W0Bkn{height: 30px;width: 30px}
 .theme-dark .wrapper-2lTRaf a{border-radius: 0px/*;background-color: red!important;*/}
 .avatar-3f3jk4 .inner-1x-wIi{border-radius: 0px;left: -10px!important;}
 .image-33JSyf, .mask-3OgeRz, .wrapper-2F3Zv8{border-radius: 0px}
@@ -445,7 +447,7 @@
 .guildsAdd-21_IdK{background:0 0;color:#fff;border-color:#fff;z-index:100;background-color:var(--dark)!important;box-shadow:0 0 0 12.5px var(--medium);position:absolute;left:12.5px;bottom:12.5px;line-height:20px;height:30px;width:30px;box-sizing:border-box;border-radius:50%!important}
 */
 .guildsAdd-21_IdK{background:0 0!important;color:#fff;border-color:#fff;z-index:100;box-sizing:border-box;border-radius:50%!important}
-.theme-dark .wrapper-2lTRaf{background:none!important}
+.theme-dark .wrapper-2lTRaf{background:none!important;border-radius:0!important}
 .theme-dark .circleIconButton-jET_ig{background:none!important}
 .container-11WMXy [name='Search']{top:0!important}
 .guildsAddInner-1KMFy-{top:-2px}
