@@ -24,7 +24,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.2.4";}
+    --version:"1.2.5";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -386,8 +386,9 @@
 .regionSelect-3lf4eE:hover, .regionSelectInner-24f4Ce:hover, .regionSelect-3lf4eE button:hover{border: 1px solid var(--primary)}
 .theme-light .title-2Dc-Cb{color: var(--primary)}
 /* New Guild (Server) Stuff */
-.container-1ETFDs,.container-1ETFDs .homeButton-2Cw51C a,.iconSizeLarge-161qtT{height:30px;width:30px;border-radius: 0px;}
-.theme-dark .guildIcon-VlWW86{/*left: -10px;*/border-radius: 0px}
+.container-1ETFDs,.container-1ETFDs .homeButton-2Cw51C a,.iconSizeLarge-161qtT, .guildsError-b7zR5H{height:30px;width:30px;border-radius: 0px;}
+.theme-dark .guildIcon-VlWW86, .guildsError-b7zR5H{/*left: -10px;*/border-radius: 0px}
+.theme-dark .guildsError-b7zR5H{padding-top: 0px}
 .wrapper-21TRaf{left: -10px}
 .container-2td-dC{margin-bottom: -7px;border-radius: 0px;left: -10px}
 .theme-dark .friendsOnline-2JkivW{color: rgba(var(--primaryrgb));}
@@ -409,6 +410,8 @@
     position:relative;
     border-radius:0px;
     left:0px;
+    color: var(--dots);
+    border-color: var(--dots)
 }
 /* New Friend Message */
 .container-1aNBdK{height: 40px!important;width: 30px!important}
@@ -455,7 +458,9 @@
 .guildsAddInner-1KMFy-{top:-2px}
 .plus-3UqSQu{padding-top:5px;padding-right:1px}
 .noIcon-1a_FrS{line-height:200%!important}
+/*
 .guildsError-3cFMtY{height:35px;width:35px;line-height:30px;border-radius:0;color:#fff!important;box-shadow:0 0 15px .5px #f04747;transition:all .2s ease}
+*/
 .container-1ETFDs .guildIcon-VlWW86,.container-1ETFDs .homeButton-2Cw51C{background-color:transparent!important}
 .dms-rcsEnV .homeButton-2Cw51C{height:37px;width:37px}
 .container-1ETFDs.selected-nT-gM3:before{border-radius:0;height:30px;margin-top:-14.5px;background:var(--primary)!important}
