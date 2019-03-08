@@ -24,7 +24,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.2.6";}
+    --version:"1.2.7";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -440,6 +440,7 @@
     height:30px;
     top:21px;
 }
+.selected-nT-gM3:before, .unread-2OHH1w:before{left: 0!important}
 /*                       */
 /*                       */
 /*  Corey's Code block   */
