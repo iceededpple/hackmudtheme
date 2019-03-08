@@ -76,6 +76,8 @@
 .platform-win .container-1ETFDs:nth-child(1):not([style*=translateX]){margin-bottom:5px}
 .platform-win .container-1ETFDs:nth-child(1):not([style*=translateX])::after{content:"";width:60px;height:40px;position:absolute;left:-10px;top:-5px;background-color:var(--dark);box-shadow:1px 0 10px #000;z-index:-1}
 .wrapper-232cHJ{background-color:red;border-radius:50%;bottom:-3px;right:-5px;height:17px;width:17px;top:-5px;box-sizing:border-box;box-shadow:0 0 10px #000}
+.badge-2_fwUZ{right:-10px!important;padding: 3px 4px} /* Friend Unread */
+.badge-3dItlm{right:0!important;padding: 4px 4px} /* Server Unread */
 .attachment-33OFj0,.bf-toolbar:before,.embedVideo-3nf0O9,.imageWrapper-2p5ogY,.video-8eMOth,.wrapper-2TxpI8{border-radius:0!important}
 .bf-toolbar:before{background:rgba(0,0,0,.9)!important;border-left:4px solid var(--primary)}
 .bf-toolbar .format:hover{background-color:rgba(0,0,0,.45)}
