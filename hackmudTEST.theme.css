@@ -17,6 +17,7 @@
     --fontcolor:rgb(131, 176, 242);
     --mentions:rgb(255, 128, 0);
     --timestamp:rgb(114, 118, 125);
+    --timestamprgb:114,118,125;
     --dots:rgb(76, 79, 80);
     --playing:rgb(34, 34, 34);
     --lime:rgb(30, 255, 0);
@@ -24,7 +25,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.1.7";}
+    --version:"1.1.9";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -362,13 +363,26 @@
 /* misc stuff */
 .theme-dark .bda-slist .bda-footer a, .theme-dark .bda-slist .bda-footer button{color:black!important}
 #app-mount .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb{background-color:var(--primary)!important}
-.theme-dark .unread-1Dp-OI{background-color: var(--primary);border-radius: 0}
+.theme-dark .unread-1Dp-OI{background-color: var(--mentions);border-radius: 0}
 /* Gif Favorites */
 .theme-dark .emptyHintCard-2mUdMe{background-color: var(--light);}
 .theme-dark .categoryFadeBlurple-1j72_A{background-color: rgb(var(--primaryrgb),.6)}
 .theme-dark .categoryFadeBlurple-1j72_A:hover{background-color: rgb(var(--primary2rgb),.6);border-color: rgb(var(--primary2rgb),.6)}
 .theme-dark .wrapper-1GJGVj{color: var(--primary)}
 .theme-dark .gif-1TcNIB:hover{border-color: red!important}
+/* Find Communities */
+.theme-dark .input-cIJ7To{background-color: var(--light)!important}
+.theme-dark .input-cIJ7To::placeholder{color: var(--timestamp)!important}
+.theme-dark .searchBox-3Y2Vi7{background-color: var(--light)!important}
+.theme-dark .searchIcon-1a1-yA{color: rgb(var(--timestamprgb),.3);}
+/* Create Your Server - Avatar Uploader */
+.avatarUploaderInner-3UNxY3{background-color: var(--primary)}
+.avatarUploaderInner-3UNxY3>*{color: black}
+.avatar-21196O{border: 5px solid var(--primary2)}
+.theme-dark .regionSelect-3lf4eE:hover button, .theme-light .regionSelect-3lf4eE:hover button{background-color: var(--primary);color:black;}
+.regionSelect-3lf4eE button{color: var(--primary)}
+.regionSelect-3lf4eE:hover, .regionSelectInner-24f4Ce:hover, .regionSelect-3lf4eE button:hover{border: 1px solid var(--primary)}
+.theme-light .title-2Dc-Cb{color: var(--primary)}
 /*                       */
 /*                       */
 /*  Corey's Code block   */
