@@ -433,6 +433,7 @@
     height:30px;
     width: 5px;
     margin-top:-21px;
+    left:0px!important;
     background:var(--primary)!important;
 }
 
@@ -440,7 +441,6 @@
     height:30px;
     top:21px;
 }
-.selected-nT-gM3:before, .unread-2OHH1w:before{left: 0!important}
 /*                       */
 /*                       */
 /*  Corey's Code block   */
