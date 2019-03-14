@@ -24,7 +24,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.2.9";}
+    --version:"1.3.0";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -177,7 +177,7 @@
 .theme-dark .lookFilled-1Gx00P{font-family:whiterabbit} /* Button - User Settings */
 .theme-dark .lookOutlined-3sRXeN{font-family:whiterabbit} /* Button - User Settings */
 .theme-dark .playButton-1fMNjH,.button-38aScr{font-family: whiterabbit;}
-.theme-dark .input-cIJ7To,{color:var(--primary)!important;font-family: whiterabbit;}
+.theme-dark .input-cIJ7To{color:var(--primary)!important;font-family: whiterabbit;}
 .theme-dark .contentDefault-16dKSY .note-S--UP5{color: var(--prefix)}
 .theme-dark .container-3-pyIM .content-2M3n_H a {color: var(--mentions);text-transform: uppercase}
 .theme-dark .content-2M3n_H {color: var(--fontcolor);text-transform: uppercase}
@@ -236,13 +236,13 @@
 .theme-dark .keybindShortcut-1BD6Z1 span {background-color:var(--primary);color: var(--dark)} /* buttons */
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g{fill: var(--dark)!important} /* arrows to navigate */
 /* End QUICK SWITCHER */
-/* Server Tool Tip */
+/* Server Tool Tip / Name Tag */
 .tooltip-1OS-Ti{
     -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
     -webkit-box-sizing: border-box;
     border-radius: 0px;
     border-style: solid;
-    border-color: --primary;
+    border-color: var(--primary);
     border-width: 1px;
     box-shadow: 0 2px 10px 0 rgba(3, 197, 245, 0.2);
     box-sizing: border-box;
@@ -258,6 +258,8 @@
     z-index: 1002;
     font-family: whiterabbit;
 }
+/*.tooltip-1OS-Ti::after{
+   /* border-color: var(--primary);} */ /*makes it fully colored in*/
 
 /* END Server Tool Tip */
 /* Mobile Indicator */
@@ -477,8 +479,16 @@
     background-color: var(--primary2)!important;
 }
 /* New Friend Message */
-.container-1aNBdK{height: 40px!important;width: 30px!important}
-.inner-1W0Bkn{height: 30px;width: 30px}
+.container-1aNBdK{
+    height: 40px!important;
+    width: 30px!important;
+}
+.inner-1W0Bkn{
+    height: 30px;
+    width: 30px;
+    border-radius:0!important;
+    background-color: transparent;
+}
 .theme-dark .wrapper-2lTRaf a{border-radius: 0px/*;background-color: red!important;*/}
 /*.avatar-3f3jk4 .inner-1x-wIi{border-radius: 0px;left: -10px!important;}*/
 .avatar-3f3jk4{height: 30px; width: 30px}
@@ -517,6 +527,21 @@
 }
 /* Search Friends */
 .match-38WbBN{padding-left: 10px}
+
+/* TEST STUFF */
+/*[user="IceeDedPple"].inner-1W0Bkn{
+    background-color:red!important;
+    border-color:red!important;
+}*/
+
+/* User Status Icon */
+.avatarSmall-3ACRaI .status-2zcSVk{
+    width:3px!important;
+    height:100%!important;
+    right:-4px;
+    top:-1.54px;
+}
+
 /*                       */
 /*                       */
 /*  Corey's Code block   */
@@ -880,8 +905,6 @@ svg[name=Checkmark] g polyline{stroke:var(--dark)!important;}
 .footer-2yfCgX{border-radius:0;background-color:var(--dark)!important}
 .bd-modal-wrapper .bd-modal-inner{border:none;border-radius:0}
 #bda-qem-favourite-container .scroller-wrap,#bda-qem-twitch-container .scroller-wrap{overflow:hidden;overflow-y:scroll}
-.inner-1W0Bkn{border-radius:0!important;background-color: transparent;}
-.avatarSmall-3ACRaI .status-2zcSVk{width:3px!important;height:100%!important;right:-2px;top:-2px}
 .friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .status-3fQvEa{height:15px!important;width:15px!important}
 .container-3gCOGc{background-color:var(--medium)!important}
 .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr{background-image:none!important;background-color:var(--dark)!important}
