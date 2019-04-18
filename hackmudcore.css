@@ -1,4 +1,3 @@
-/* Simple Note */
 @font-face {
     font-family: whiterabbit;
     src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
@@ -24,7 +23,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.3.1";}
+    --version:"1.3.2";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -281,7 +280,7 @@
 .theme-dark .emptyStateHeader-3CJtAy{color: var(--primary)}
 .theme-dark .emptyStateDescription-2IePen{color: var(--primary2)}
 .emptyStateLarge-1nQX5A{background-color: var(--medium)}
-.scroller-2FKFPG{background-color: var(--medium)}
+.scroller-2FKFPG{background-color: var(--medium);}
 /* Library GIFT INVENTORY */
 .anchor-3Z-8Bb {color: var(--lime)}
 .emptyStateSubtext-2njjqg {color:var(--fontcolor)!important}
@@ -493,7 +492,7 @@
 /*.avatar-3f3jk4 .inner-1x-wIi{border-radius: 0px;left: -10px!important;}*/
 .avatar-3f3jk4{height: 30px; width: 30px}
 .image-33JSyf, .mask-3OgeRz, .wrapper-2F3Zv8{border-radius: 0px}
-/* Unread */
+/* Unread Server*/
 .theme-dark .unread-2OHH1w:before{
     top:15px;
     border-radius: 0;
@@ -528,11 +527,38 @@
 /* Search Friends */
 .match-38WbBN{padding-left: 10px}
 
-/* TEST STUFF */
-/*[user="IceeDedPple"].inner-1W0Bkn{
+/* TEST STUFF v */
+/*
+[user="IceeDedPple"].inner-1W0Bkn{
     background-color:red!important;
     border-color:red!important;
-}*/
+}
+*/
+
+/* Message %channel% preset v *//*
+.inner-zqa7da textarea:placeholder-shown::placeholder {
+    color: transparent;
+}
+/*
+.inner-zqa7da textarea:placeholder-shown ~ .buttons-205you::after {
+    content: '>>chats.send { channel: 0000, msg:"';
+    color: var(--fontcolor);
+    left: 56px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 0.875rem;
+}
+
+#app-mount .inner-zqa7da textarea::placeholder{
+    background:linear-gradient(to right, red, blue, green);
+    -webkit-background-clip: text;
+    background-clip:text;
+    width:min-content;
+}
+
+/* TEST STUFF ^ */
 
 /* User Status Icon */
 .avatarSmall-3ACRaI .status-2zcSVk{
@@ -699,7 +725,7 @@
 .headerPlaying-j0WQBV .activity-11LB_k,.topSectionPlaying-1J5E4n .activity-1ythUs{box-shadow:0 5px 15px rgba(0,0,0,.45),0 -5px 15px rgba(0,0,0,.45);background-position:center;background-size:cover;background-repeat:no-repeat;background-color:var(--playing)!important}
 .body-3ND3kc,.body-3iLsc4,.footer-1fjuF6{background-color:var(--medium)!important}
 .assets-VMAukC,.assetsLargeImage-eYwpTX,.root-SR8cQa{border-radius:0}
-.root-SR8cQa{border:1px solid #000;box-shadow:0 0 10px 1px #000}
+.root-SR8cQa{border:1px solid #000;box-shadow:0 0 10px 1px #000; }
 .bodyTitle-Y0qMQz{text-align:center;font-size:12px;line-height:10px;width:100%;border-bottom:1px solid var(--primary);padding:0 0 2px}
 .headerNormal-T_seeN{background-color:var(--dark)!important;border-bottom:4px solid var(--primary);position:relative}
 .headerNormal-T_seeN::after{content:"";background-color:var(--primary2)!important;height:4px;width:100%;position:absolute;bottom:-8px}
