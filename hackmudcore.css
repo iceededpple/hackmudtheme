@@ -23,7 +23,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.3.4";}
+    --version:"1.3.5";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -747,7 +747,7 @@
 .pill-2uzAFe{top:-8px}
 .pill-31IEus{top:-8px}
 .wrapper-1Rf91z{width:65px}
-.scroller-2TZvBN{padding:5px 0 5px 5px}
+.scroller-2TZvBN{padding:5px 0 5px 0px}
 .svg-1X37T1, .wrapper-25eVIn{height:30px; width:30px}
 .friendsOnline-2JkivW{margin-left:-17px}
 .container-1ETFDs .homeButton-2Cw51C[style*=border-radius]:not(.guildsAdd-21_IdK),.container-1ETFDs+.container-1ETFDs:not(.guildsAdd-21_IdK){border-radius:0!important}
@@ -1118,3 +1118,4 @@ input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5.da-inputDefault.da-input.da
 /* Join,Create Server */
 .theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{background:var(--medium)}
 .theme-dark .or-3THJsp, .theme-light .or-3THJsp{background-image:none!important}
+.overridePlaceholder-14_rPI{height:0px!important}
