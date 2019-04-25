@@ -23,7 +23,7 @@
     --yellowrgb:255, 216, 99;
     --primaryrgb:0,255,255;
     --primary2rgb:23,162,178;
-    --version:"1.3.3";}
+    --version:"1.3.4";}
 .container-1UB9sr,.container-2Thooq{margin:0}
 .container-1UB9sr{border:none}
 .image-33JSyf,.mask-3OgeRz,.wrapper-2F3Zv8{box-shadow:0 0 10px rgba(0,0,0,0)}
@@ -744,9 +744,10 @@
 #bd-pub-button:hover{background-color:var(--primary);box-shadow:0 0 30px #000;text-shadow:0 0 3px #000}
 .wrapper-1Rf91z{background-color:var(--medium)!important}
 .scroller-2TZvBN,.scrollerWrap-1IAIlv{background:0 0!important}
-
-.wrapper-1Rf91z{width:55px}
-.scroller-2TZvBN{padding:5px 0 5px 10px}
+.pill-2uzAFe{top:-8px}
+.pill-31IEus{top:-8px}
+.wrapper-1Rf91z{width:65px}
+.scroller-2TZvBN{padding:5px 0 5px 5px}
 .friendsOnline-2JkivW{margin-left:-17px}
 .container-1ETFDs .homeButton-2Cw51C[style*=border-radius]:not(.guildsAdd-21_IdK),.container-1ETFDs+.container-1ETFDs:not(.guildsAdd-21_IdK){border-radius:0!important}
 /* Re-write for add server and discovery
